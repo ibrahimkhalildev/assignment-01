@@ -1,0 +1,45 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+/* Common Style */
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.btn-main {
+    background-color: #1D4ED8;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Navbar Style */
+.navbar-child {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav-items {
+    display: flex;
+    gap: 26px;
+}
+
+.nav-items li {
+    list-style: none;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #575757;
+}
