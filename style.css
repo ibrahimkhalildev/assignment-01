@@ -15,11 +15,13 @@
     color: white;
     border: none;
     padding: 18px 55px;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: bold;
     border-radius: 10px;
     cursor: pointer;
     transition: .3s;
+    width: 230px;
+    height: 56px;
 }
 
 .btn-main:hover {
@@ -98,6 +100,7 @@
 .speaker-section {
     background: #fff;
     padding: 100px 0;
+    margin-bottom: 50px;
 }
 
 .speaker-heading h2 {
@@ -150,4 +153,118 @@
     font-size: 18px;
     color: #777;
     margin: 0 24px 30px;
+}
+
+/* Price Section Style */
+.price-section {
+    margin-bottom: 80px;
+}
+
+.price-desc {
+    text-align: center;
+    margin-bottom: 48px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.price-desc p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757;
+}
+
+.price-desc h2 {
+    color: #0D1B2A;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.price-card h3 {
+    font-size: 13px;
+    color: #888888;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.price-card h2 {
+    font-size: 44px;
+    font-weight: bold;
+    color: #0D1B2A;
+}
+
+.price-card p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #888888;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #E5E7EB;
+    margin: 20px 0;
+}
+
+.pro-hr {
+    background-color: #E5E7EB10;
+}
+
+.ticket-features li::marker {
+    color: #60A5FA;
+}
+
+.price-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.price-card {
+    max-width: 370px;
+    width: 100%;
+    border: 1px solid #E5E7EB;
+    padding: 32px;
+    border-radius: 12px;
+}
+
+.price-card ul li {
+    line-height: 40px;
+    margin-left: 15px;
+}
+
+ul.ticket-features {
+    margin-bottom: 20px;
+}
+
+.pro-card {
+    background-color: #0D1B2A;
+}
+
+.pro-card h3 {
+    color: #93C5FD;
+}
+
+.pro-card h2 {
+    color: white;
+}
+
+.pro-card ul li {
+    color: #fff;
+}
+
+.price-btn {
+    width: 304px;
+    height: 43px;
+    border: 1px solid #0D1B2A;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pro-btn {
+    background: #2563EB;
+    color: white;
 }
