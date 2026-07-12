@@ -1,0 +1,1 @@
+At first give a close look on the pnd website templae. Then See my screenshot "https://prnt.sc/tBchHnJpcQB1" where you will find the text "Something Missing? Generate a relevant section with AI" so now based on given png website template make a suitable section that ensure 100% fit with the template topic (DevConf 2026 Landing Page) using only HTML and CSS
